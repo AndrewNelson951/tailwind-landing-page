@@ -1,32 +1,56 @@
-# Manage Landing Page: High-Velocity MVP Strategy
+# Tailwind Landing Page Starter
 
-## Strategic Overview
+This repo is a small landing page starter I use when spinning up new SaaS ideas.
 
-This project represents a **High-Velocity Go-To-Market** asset for "Manage," a conceptual SaaS product. It demonstrates a rapid-execution workflow designed to validate value propositions and accelerate **Product-Market Fit**.
+It is meant to get something public fast, so I can focus on copy, structure, and basic presentation before touching product code.
 
-By leveraging a utility-first architecture, this implementation prioritizes **speed of iteration**, allowing the product strategy to pivot and adapt in real-time based on market feedback—without the debt of heavy engineering cycles.
+Live demo: https://tailwind.andrewnelson.dev/
 
-## ⚡ The Business Case for this Architecture
+---
 
-### 1. Accelerating Product-Market Fit
+## What this is for
 
-Traditional development cycles often separate design and implementation, leading to slow feedback loops. This project utilizes a "Live Prototyping" methodology where production-ready assets are built immediately.
+Early on, I usually want to test positioning and messaging, not solve technical problems.
 
-- **Outcome**: We can put a functional landing page in front of customers in hours, not weeks, to test messaging and demand before committing to heavy backend development.
+A simple landing page is often enough to see:
+• whether the idea makes sense  
+• where the pitch breaks down  
+• what questions people ask
 
-### 2. Eliminating Rework & Handoff Friction
+This starter helps me reach that point quickly.
 
-Standard development often suffers from "lost in translation" errors between Strategy, Design, and Engineering. The approach used here minimizes the "Designer ? Developer" handoff.
+---
 
-- **Outcome**: Strategic pivots translate directly to the interface. Marketing teams can request significant layout changes (e.g., "move the CTA," "A/B test the hero") with minimal cost, keeping the focus on conversion optimization rather than code maintenance.
+## What is included
 
-### 3. Rapid Market Capture
+• A basic responsive layout using Tailwind  
+• Sensible defaults for spacing and typography  
+• Minimal setup  
+• Easy edits and redeploys
 
-In a competitive market, speed is the primary differentiator.
+---
 
-- **Outcome**: This workflow enables near-instant deployment of campaigns. By removing the lag time of complex styling architectures, we ensure that the product evolves as fast as our customer insights do.
+## What is not included
 
-## 🎯 The Product Experience
+There is no app logic, no state management, and no interactive behavior. Those things belong in a product repo, not at this stage.
+
+---
+
+## Status
+
+This is a reusable starter that I keep around as an example for early validation work.
+
+---
+
+## Context
+
+I use this as part of a market-first workflow. The goal is to test ideas cheaply before committing time to deeper builds.
+
+Built to test an idea, not to ship a finished product.
+
+---
+
+## The Product Experience
 
 The page features a focused Conversion Rate Optimization (CRO) structure:
 
@@ -35,13 +59,8 @@ The page features a focused Conversion Rate Optimization (CRO) structure:
 - **Social Proof**: Trust-building testimonials to overcome early adopter hesitation.
 - **Mobile-Optimized**: Fully responsive design ensures we capture the ~60% of traffic originating from mobile devices.
 
+---
+
 ## Source & Attribution
 
 This project is an implementation of the [Tailwind Crash Course | Project From Scratch](https://www.youtube.com/watch?v=dFgzHOX84xQ) by **Traversy Media**. It serves as a case study in modern, efficient "Concept-to-Code" execution.
-
-## Usage
-
-To view the rapid-build environment:
-
-1.  Clone repo & install dependencies (`npm install`).
-2.  Run the live-reload server: `npm run watch`.
